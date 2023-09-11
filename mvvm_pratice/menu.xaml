@@ -6,10 +6,12 @@
       xmlns:local="clr-namespace:mvvm_pratice"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="menu">
+      Title="menu"
+       Background="{StaticResource background}"
+ >
 
     <Grid>
-        <Button Content="Products" HorizontalAlignment="Left" Margin="79,144,0,0" VerticalAlignment="Top" Height="86" Width="98"/>
+        <Button Content="Products" HorizontalAlignment="Left" Margin="79,144,0,0" VerticalAlignment="Top" Height="86" Width="98" Click="Button_Click_2"/>
         <Button Content="Live support" HorizontalAlignment="Left" Margin="249,144,0,0" VerticalAlignment="Top" Height="86" Width="98" Click="Button_Click_1"/>
         <Button Content="Email suppoer" HorizontalAlignment="Left" Margin="416,144,0,0" VerticalAlignment="Top" Height="86" Width="98" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="163,259,0,0" TextWrapping="Wrap" Text="Advnture Works" VerticalAlignment="Top" Height="35" Width="198" FontSize="24" FontWeight="Bold"/>

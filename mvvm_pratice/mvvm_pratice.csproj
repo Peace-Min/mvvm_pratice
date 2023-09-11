@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Notifier.cs" />
     <Compile Include="ProductsFactory.cs" />
+    <Compile Include="ProductsManagement.xaml.cs" />
     <Compile Include="Talk.cs" />
     <Page Include="Contact.xaml">
       <SubType>Designer</SubType>
@@ -87,6 +88,10 @@
     <Page Include="menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProductsManagement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
